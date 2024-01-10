@@ -1,0 +1,180 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Void
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+
+struct EVENT_FILTER_DESCRIPTOR_t59379AB6F16CCEA5C0BDF328FF5AC64040CED05B ;
+struct Guid_t ;
+struct float3_t9500D105F273B3D86BD354142E891C48FFF9F71D ;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Object
+
+
+// System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
+{
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+
+// System.Void
+struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Float_m1245AF175691B3957C1E4592F0108A55005C5DFA(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3FloatU24BurstManaged_m9F621C357BABAEBE1F253DEC3F11091EB7D726D0(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16_m61C347F592EF2F07EA4A5B4E58EB80DEC0AF245B(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16U24BurstManaged_mB9481F2E9A6E30CDF54632A2DAAB704B54BABF59(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16Normalized_mA539703D0529B1A185105B11A1E71F3860CDAECF(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16NormalizedU24BurstManaged_m5D23B2108C3A0B97AC352E637EC645A6ECCB8BEF(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8_m06D5F35E0D85D42C734A704A2A309586C9E72836(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8U24BurstManaged_mF638F5B16D26482791C6D9FCC096D6D5B3CA4013(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8Normalized_mA2CAF0F90FC31FB4C125BEBFFB9B854B9BD0885E(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8NormalizedU24BurstManaged_m5401AD1BCF220E7B342730E7DF37910F0D931253(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16_mB96E7689E1DB05F9B690A0D247BA65DA0FDCD1C2(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16U24BurstManaged_mE67FBCBBA2D74FD256F0D636CCDE68CBE87EBC72(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16Normalized_m4776274A911992E6474D7524C3EADCE2F977C127(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16NormalizedU24BurstManaged_mF2F83755B9B1F46E9E752A778B24FC4DA6D92100(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32_mA69886F565E9ADAC26A3FBB4C0F3197A2DA69206(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32U24BurstManaged_m5DE0675043F4E454F8E8DC11E8F5BF4D226D392B(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32Normalized_mAA1021B111999BFC60C580C2C1C29868B68738D1(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32NormalizedU24BurstManaged_mD40B2E8F11371C366AAF2BC0FF9689FC1891E2BD(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8_m76DB4854A9B49A80F6E2F9DF20891C6735B1F737(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8U24BurstManaged_m2601F8F0B21CCB426E86598DF5B452C83B9AF644(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8Normalized_mE147EEEA617254E9B6CCEF62452269B01C96AAF7(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8NormalizedU24BurstManaged_m7C837E150D5B516D712D3BDB89F08BEC041AA5B0(float3_t9500D105F273B3D86BD354142E891C48FFF9F71D * ___destination0, void* ___src1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16_m6651206D2832231A0F490411797E65A2951DF2E5(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16U24BurstManaged_m2ECD935CB5C3C82FA88D373B537FFC16A98784EE(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8_mF0241DDBF0B39630A6BDD433A76E8F5B5CB96BFB(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8U24BurstManaged_mC087B3F5BF8FBA85A46D80F13B7535AA710DF555(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16_m7899D23CBF8DC145697710202DCFBA1169C35C5E(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16U24BurstManaged_mE46618C1761A05F2D795D112136538085CAA02F0(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32_mED23C8ACED80A156ED96A717176949189DC51147(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32U24BurstManaged_mF8AA2200441CF63180FF4FC76D2366DF26073FCF(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8_m6C5C00CE77B069255C836568D4D553F0428553CC(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8U24BurstManaged_mD5ECEE9C7077C0ED3D1AA7167253A515936F7D24(void* ___baseAddress0, int32_t ___index1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_EventProvider_EtwEnableCallBack_m21ADE6DC652B28DDB916AC68B9FC908B18006FFD(Guid_t * ___sourceId0, int32_t ___controlCode1, uint8_t ___setLevel2, int64_t ___anyKeyword3, int64_t ___allKeyword4, EVENT_FILTER_DESCRIPTOR_t59379AB6F16CCEA5C0BDF328FF5AC64040CED05B * ___filterData5, void* ___callbackContext6);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
+extern "C" int32_t CDECL ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_mC1B24958FFA3F3D5360E1F933CE0900E586B2A5D();
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[35] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Float_m1245AF175691B3957C1E4592F0108A55005C5DFA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3FloatU24BurstManaged_m9F621C357BABAEBE1F253DEC3F11091EB7D726D0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16_m61C347F592EF2F07EA4A5B4E58EB80DEC0AF245B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16U24BurstManaged_mB9481F2E9A6E30CDF54632A2DAAB704B54BABF59),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16Normalized_mA539703D0529B1A185105B11A1E71F3860CDAECF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16NormalizedU24BurstManaged_m5D23B2108C3A0B97AC352E637EC645A6ECCB8BEF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8_m06D5F35E0D85D42C734A704A2A309586C9E72836),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8U24BurstManaged_mF638F5B16D26482791C6D9FCC096D6D5B3CA4013),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8Normalized_mA2CAF0F90FC31FB4C125BEBFFB9B854B9BD0885E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8NormalizedU24BurstManaged_m5401AD1BCF220E7B342730E7DF37910F0D931253),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16_mB96E7689E1DB05F9B690A0D247BA65DA0FDCD1C2),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16U24BurstManaged_mE67FBCBBA2D74FD256F0D636CCDE68CBE87EBC72),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16Normalized_m4776274A911992E6474D7524C3EADCE2F977C127),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16NormalizedU24BurstManaged_mF2F83755B9B1F46E9E752A778B24FC4DA6D92100),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32_mA69886F565E9ADAC26A3FBB4C0F3197A2DA69206),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32U24BurstManaged_m5DE0675043F4E454F8E8DC11E8F5BF4D226D392B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32Normalized_mAA1021B111999BFC60C580C2C1C29868B68738D1),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32NormalizedU24BurstManaged_mD40B2E8F11371C366AAF2BC0FF9689FC1891E2BD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8_m76DB4854A9B49A80F6E2F9DF20891C6735B1F737),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8U24BurstManaged_m2601F8F0B21CCB426E86598DF5B452C83B9AF644),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8Normalized_mE147EEEA617254E9B6CCEF62452269B01C96AAF7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8NormalizedU24BurstManaged_m7C837E150D5B516D712D3BDB89F08BEC041AA5B0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16_m6651206D2832231A0F490411797E65A2951DF2E5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16U24BurstManaged_m2ECD935CB5C3C82FA88D373B537FFC16A98784EE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8_mF0241DDBF0B39630A6BDD433A76E8F5B5CB96BFB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8U24BurstManaged_mC087B3F5BF8FBA85A46D80F13B7535AA710DF555),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16_m7899D23CBF8DC145697710202DCFBA1169C35C5E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16U24BurstManaged_mE46618C1761A05F2D795D112136538085CAA02F0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32_mED23C8ACED80A156ED96A717176949189DC51147),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32U24BurstManaged_mF8AA2200441CF63180FF4FC76D2366DF26073FCF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8_m6C5C00CE77B069255C836568D4D553F0428553CC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8U24BurstManaged_mD5ECEE9C7077C0ED3D1AA7167253A515936F7D24),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_EventProvider_EtwEnableCallBack_m21ADE6DC652B28DDB916AC68B9FC908B18006FFD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_mC1B24958FFA3F3D5360E1F933CE0900E586B2A5D),
+};
